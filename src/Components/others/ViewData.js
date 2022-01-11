@@ -23,7 +23,7 @@ const ViewData = () => {
                 });
             }
         });
-    }, [] )
+    }, [id,dataa] )
     
     return (
         <div>
