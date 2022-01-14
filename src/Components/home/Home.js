@@ -39,7 +39,7 @@ const Home = () => {
             </div>
             <div className="hc1">
             {category.filter(data=>data.id==="9").map((latest)=>(
-              <Link to="/nature" key={category.id} className="hcc1">
+              <Link to="/jobs" key={category.id} className="hcc1">
               <div className="himg"><img src={latest.img} alt="" /></div>
               <div className="c1h3"><h3>{latest.det}</h3></div>
               <div className="c1h5"><h5>{latest.date}</h5></div>

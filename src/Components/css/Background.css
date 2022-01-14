@@ -260,6 +260,7 @@ body{
     margin-left: 5%;
     width: 900px;
     font-size: 25px;
+    text-align: justify;
 }
 .clap{
     position: absolute;
