@@ -17,7 +17,7 @@ const Tollywood = () => {
             <div className="tollyi"><img src={wood.img} alt="" /></div>
             <h3 className="tollyt">{wood.det}</h3>
           </Link>
-          <h5>{wood.date}</h5>
+          <h5 className="tollyd">{wood.date}</h5>
           <hr/>
         </div>
       ))}

@@ -16,7 +16,7 @@ const Nature = () => {
               <div className="tollyi"><img src={wood.img} alt="" /></div>
               <h3 className="tollyt">{wood.det}</h3>
             </Link>
-            <h5>{wood.date}</h5>
+            <div className="tollyn"><h5>{wood.date}</h5></div>
             <hr/>
           </div>
         ))}

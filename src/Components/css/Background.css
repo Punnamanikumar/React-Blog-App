@@ -5,6 +5,7 @@
 body{
     margin: 1% 2% 2% 2%;
     zoom: 80%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .ht1{
     margin-left: 45%;
@@ -43,6 +44,12 @@ body{
     position: relative;
     cursor: pointer;
 }
+.one img{
+    border-radius: 15px;
+    height: 535px;
+    opacity: 95%;
+
+}
 .two{
     grid-column: 2/3;
     grid-row: 1/2;
@@ -54,6 +61,11 @@ body{
 }
 .two img{
     object-fit: cover;
+    border-radius: 15px;
+    opacity: 80%;
+}
+.one img:hover, .two img:hover, .three img:hover{
+    opacity: 150%;
 }
 .three{
     grid-column: 2/3;
@@ -65,36 +77,43 @@ body{
     object-fit: contain;
 }
 .three img{
-    height: 350px;
-    width: 500px;
-    object-fit: contain;
+    height: 275px;
+    width: 490px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 5%;
+    padding-top: 10px;
+    opacity: 95%;
+
 }
 
 .onet{
     position: absolute;
-    top: 55%;
-    left:5% ;
+    top: 65%;
+    left:3% ;
     font-size: 3rem;
-    color: rgb(238, 255, 0);
-    font-family: 'Cinzel Decorative', cursive;
+    color: black;
     backdrop-filter: blur(2px);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 .twot{
     position: absolute;
-    top: 50%;
+    top: 45%;
     left:5% ;
     font-size: 2rem;
-    color: rgb(35, 229, 255);
-    font-family: 'Cinzel Decorative', cursive;
+    width: 350px;
+    color: black;
     backdrop-filter: blur(2px);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
 }
 .threet{
     position: absolute;
     top: 54%;
     left:5% ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2rem;
-    color: rgb(22, 202, 97);
-    font-family: 'Cinzel Decorative', cursive;
+    color: black;
 }
 .hlhr{
     margin-left: 1%;
@@ -110,21 +129,23 @@ body{
 }
 .hcc1{
     width: 400px;
-    height: 400px;
+    height: 500px;
     font-size: 15px;
 }
 .hcc1 img{
     height: 290px;
-    width: 510px;
-    /* object-fit: contain; */
+    width: 500px;
+    object-fit: poster;
+    border-radius:15px 15px 0px 0px;
 }
 .hc1{
     border: 1px solid grey;
-    width: 510px;
+    width: 500px;
     box-shadow: 10px 5px 5px grey;
     cursor: pointer;
-    margin-right: 2%;
-    height: 420px;
+    margin-right: 3%;
+    height: 480px;
+    border-radius: 15px;
 }
 .hcc1, .hcc2{
     text-decoration: none;
@@ -140,12 +161,35 @@ body{
 .hc2{
     font-size: 15px;
 }
+.c1h3, .c1h5{
+    margin-left: 3%;
+}
+.c1h5, .c2h5{
+    font-size: 18px;
+    color: rgb(0, 0, 204);
+}
+.vh5 h5{
+    color: rgb(0, 0, 204);
+    font-size: 22px;
+    margin-top: -2%;
+}
+.c1h4{
+    color:hotpink;
+    margin-left: 3%;
+}
 .c2h5{
     position: absolute;
     margin-left: 24%;
-    margin-top: -5%;
+    margin-top: -6%;
     cursor: pointer;
     width: 300px;
+}
+.c1h7{
+    position: absolute;
+    margin-left: 24%;
+    margin-top: -3%;
+    cursor: pointer;
+    color:hotpink;
 }
 .advr{
     margin-left: 52%;
@@ -173,7 +217,7 @@ body{
 .thhr{
     margin-left: 11%;
     height: 3px;
-    background-color: rgb(0, 255, 191);
+    background:rgb(255, 23, 23);
     width: 9%;
     margin-top: -1.5%;
     border: none;
@@ -210,6 +254,15 @@ body{
 .tolly hr{
     width: 60%;
     float: left;
+}
+.tollyd{
+ color: blue;
+ font-size: 16px;
+}
+.tollyn{
+    color: blue;
+    font-size: 18px;
+    margin-top: 1%;
 }
 .adv{
     height: 600px;

@@ -17,7 +17,7 @@ const Technology = () => {
           <div className="tollyi"><img src={tec.img} alt="" /></div>
           <h3 className="tollyt">{tec.det}</h3>
           </Link>
-          <h5>{tec.date}</h5>
+          <h5 className="tollyd">{tec.date}</h5>
           <hr/>
         </div>
       ))}
