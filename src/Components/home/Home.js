@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className="h1">
       <div className="grid1">
-        <Link to="/nature" className="one"><img src="https://media.cntraveler.com/photos/60596b398f4452dac88c59f8/16:9/w_3999,h_2249,c_limit/MtFuji-GettyImages-959111140.jpg" alt="" /><div className="onet"> Look deep into nature, and then you will understand  everything better. </div></Link>
+        <Link to="/nature/13" className="one"><img src="https://media.cntraveler.com/photos/60596b398f4452dac88c59f8/16:9/w_3999,h_2249,c_limit/MtFuji-GettyImages-959111140.jpg" alt="" /><div className="onet"> Look deep into nature, and then you will understand  everything better. </div></Link>
         {category.filter((disp)=>disp.id==="10").map((job)=>(<Link to={`/jobs/${job.id}`} className="two"><img src={job.img} alt="" height={"250px"} width={"480px"}/><div className="twot"> Hyderabad:<br />  Good news for job seekers </div></Link>))}
         {category.filter((disp)=>disp.id==="5").map((tec)=>(<Link to={`/technology/${tec.id}`} className="three"><img src={tec.img} alt="" /><div className="threet"> Samsung Galaxy <br/> S22 Series </div></Link>))}
       </div>
